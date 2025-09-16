@@ -80,7 +80,7 @@ h4 {
 
 #nature-photo {
     bottom: 60px;
-    background-image: url("nature-photo.jpg");
+    background-image: url("nature-image.jpg");
     background-size: cover;
     height: 100px;
     position: fixed;
