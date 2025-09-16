@@ -1,0 +1,167 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+#box {
+    background-color: blue;
+    color: white;
+}
+
+.heading {
+    color: red;
+}
+
+button {
+    background-color: green;
+}
+
+h4 {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#outer {
+    font-size: 25px;
+}
+
+#inner {
+    font-size: 10px;
+}
+
+.circle {
+    background-color: green;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+#nav-bar {
+    background-color: #0f1111;
+    height: 60px;
+}
+
+#logo {
+    color: #f08804;
+    font-size: 25px;
+    margin-right: 200px;
+    text-decoration: none;
+}
+
+#nav-link {
+    color: white;
+    margin-right: 200px;
+    text-decoration: none;
+}
+
+#search {
+    background-color: #f08804;
+}
+
+#signal {
+    background-color: black;
+    display: inline-block;
+}
+
+.signal-box {
+    border: black dotted 2px;
+    border-radius: 50%;
+    height: 100px;
+    margin: 10px;
+    width: 100px;
+}
+
+.content-box {
+    border: black solid 2px;
+    height: 100px;
+    width: 100px;
+}
+
+#nature-photo {
+    bottom: 60px;
+    background-image: url("nature-photo.jpg");
+    background-size: cover;
+    height: 100px;
+    position: fixed;
+    right: 0;
+    width: 100px;
+}
+
+.nav-bar {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li {
+    list-style-type: none;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.outer {
+    align-items: center;
+    background-color: darkred;
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    width: 200px;
+}
+
+.inner {
+    background-color: darkblue;
+    height: 100px;
+    width: 100px;
+}
+
+.box {
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+}
+
+@media (max-width: 300px) {
+    .box {
+        background-color: green;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+    .box {
+        background-color: pink;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 600px) {
+    .box {
+        background-color: red;
+    }
+}
+
+@media (min-width: 600px) {
+    .box {
+        background-color: blue;
+    }
+}
+
+.loader {
+    animation: 1s normal 1s infinite loader linear;
+    border: grey solid 10px;
+    border-radius: 50%;
+    border-top: black solid 10px;
+    height: 100px;
+    width: 100px;
+}
+
+@keyframes loader {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
